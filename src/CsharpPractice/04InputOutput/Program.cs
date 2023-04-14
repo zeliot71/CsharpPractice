@@ -11,7 +11,7 @@ Console.Write("Hello");
 
 string line = Console.ReadLine();
 
-Console.WriteLine(line+ ", Welcome to c# course");
+Console.WriteLine(line + ", Welcome to c# course");
 //ReadLine use kore string input neya jai
 
 Console.ReadKey();
