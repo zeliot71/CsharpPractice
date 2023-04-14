@@ -44,4 +44,15 @@ scores[2] = new int[5];
 
 scores[1][3] = 5;
 
-Console.WriteLine($"Jagged array: {scores[1][3]}");
+Console.WriteLine($"Jagged array: {scores[1][3]}"); 
+
+
+//Taking input array size and array from user
+int size = int.Parse( Console.ReadLine() );
+int[][] scores2 = new int[size][];
+
+for(int i = 0; i < size; i++)
+{
+    int rowSize = int.Parse( Console.ReadLine() );
+    scores2[i] = new int[rowSize];
+}

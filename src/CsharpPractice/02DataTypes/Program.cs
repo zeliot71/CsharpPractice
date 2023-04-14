@@ -89,3 +89,4 @@ if(DecInput % 1 != 0)
     }
 }
 Console.WriteLine(BinaryOutput);
+
