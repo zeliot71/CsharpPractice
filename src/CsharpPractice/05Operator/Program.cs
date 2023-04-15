@@ -119,3 +119,39 @@ uint z = w ^ v;
 Console.WriteLine(Convert.ToString(z, toBase: 2));
 
 #endregion
+
+#region Conditional Operator
+bool f = (a1 == b1);
+bool f2 = (a1 > c1);
+bool f3 = (a1 < b1);
+bool f4 = (a1 <= c1);
+bool f5 = (a1 >= b1);
+bool f6 = (a1 != c1);
+#endregion
+
+#region Null Operator
+//value type e null set korle error dibe! 
+//Error: int o = null;
+//Right way: 
+int? u = null;
+u = 5;
+//nullable operator null rakha jai abar value o set kora jai
+//Nullable type e value check korar jonno 
+Console.WriteLine(u.Value);
+//value return korbe
+Console.WriteLine(u.HasValue);
+//value thakle True and na thakle False return korbe
+
+//string reference type , er karone ete ? sign use kora lagena
+string NullExample = null;
+
+
+string name = null;
+string text = name ?? "N/A";
+Console.WriteLine(text);
+//Nullculas Operator: value null hole "N/A" and null na hole oi value return korbe
+
+string k = a1 < b1 ? "Small" : "Big";
+//ekhane a2 er cheye b1 boro hole Big and choto hole samall return korbe
+
+#endregion
