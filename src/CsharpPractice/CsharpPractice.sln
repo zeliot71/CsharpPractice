@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04InputOutput", "04InputOut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05Operator", "05Operator\05Operator.csproj", "{0AA8E088-30DD-48EC-AEDF-466DBA3050FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06ConditionalStatements", "06ConditionalStatements\06ConditionalStatements.csproj", "{4BAFF15C-5CF2-452C-BFB4-11FCAA4640BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06ConditionalStatements", "06ConditionalStatements\06ConditionalStatements.csproj", "{4BAFF15C-5CF2-452C-BFB4-11FCAA4640BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
