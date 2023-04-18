@@ -36,7 +36,48 @@
 //Console.WriteLine(num);
 
 
-//Task 01 for data type practice ---->>
+////Task 01 for basic data type practice ---->>
+//Console.WriteLine("Enter your name: ");
+//var name = Console.ReadLine();
+//Console.WriteLine("Enter your age: ");
+//uint age = uint.Parse(Console.ReadLine());
+//Console.WriteLine($"Hello {name}, you are {age} years old!");
+////task02
+//Console.WriteLine("Enter the length: ");
+//uint length = uint.Parse(Console.ReadLine());
+//Console.WriteLine("Enter the width: ");
+//uint width = uint.Parse(Console.ReadLine());
+//var aRectangle = length * width;
+//Console.WriteLine($"The area of rectangel is : {aRectangle} sqrft!");
+////task 03
+//Console.WriteLine("Enter a integer Number: ");
+//int number = int.Parse(Console.ReadLine()); 
+//if(number % 2 == 0)
+//{
+//    Console.WriteLine("Your number is Even!");
+//}
+//else
+//{
+//    Console.WriteLine("Your number is ODD!");
+//}
+//Task 04
+//Console.WriteLine("Enter the Temp in Farenhite: ");
+//double f = double.Parse(Console.ReadLine());
+//double celcius = f - 32 * 0.5555555556;
+//Console.WriteLine($"The Temp is {celcius} Degree Celcius!");
+//Task 07
+//Console.WriteLine("Enter the number n: ");
+//int n = int.Parse(Console.ReadLine());
+//var sn = (n * (n + 1)) / 2;
+//Console.WriteLine(sn);
+//task 09
+//Console.WriteLine("Enter your birth year");
+//int bYear = int.Parse(Console.ReadLine());
+//int year = DateTime.Now.Year;
+//var age = year - bYear;
+//Console.WriteLine(age);
+
+
 /*
  var input = Console.ReadLine();
 int number;
@@ -69,24 +110,26 @@ else
 
 //Task02 ========>
 
-Console.WriteLine("Enter a decimal number: ");
-decimal DecInput = decimal.Parse(Console.ReadLine());
+//using System.Security.Cryptography;
 
-string BinaryOutput = "";
+//Console.WriteLine("Enter a decimal Number: ");
+//decimal decIn = decimal.Parse(Console.ReadLine());
 
-BinaryOutput += Convert.ToString((int)DecInput, toBase: 2);
+//string BinaryNumber = "";
+//BinaryNumber += Convert.ToString((int)decIn, toBase: 2);
 
-if(DecInput % 1 != 0)
-{
-    decimal fractionalPart = DecInput % 1;
-    BinaryOutput += ".";
+//if(decIn % 1 != 0)
+//{
+//    decimal FractionPart = decIn % 1;
+//    BinaryNumber += ".";
 
-    for(int i =0; i<10; i++)
-    {
-        fractionalPart *= 2;
-        BinaryOutput += ((int)fractionalPart).ToString();
-        fractionalPart -= (int)fractionalPart;
-    }
-}
-Console.WriteLine(BinaryOutput);
+//    for (int i= 0; i < 10; i++)
+//    {
+//        FractionPart *= 2;
+//        BinaryNumber += ((int)FractionPart).ToString();
+//        FractionPart -= (int)FractionPart;
+//    }
+//}
+//Console.WriteLine(BinaryNumber);
+
 
