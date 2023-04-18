@@ -1,46 +1,46 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//for (int i = 0; i < 10; i++)
-//{
-//    Console.WriteLine(i);
-//}
-////Simple for loop syntax
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine(i);
+}
+//Simple for loop syntax
 
-//int c = 0;
-//while(c< 10)
-//{
-//    Console.WriteLine("Hello!");
-//    c++; 
-//}
-////Simple while loop syntax
-////While loop: at first check the statement and go for action
+int c = 0;
+while (c < 10)
+{
+    Console.WriteLine("Hello!");
+    c++;
+}
+//Simple while loop syntax
+//While loop: at first check the statement and go for action
 
-//while (true)
-//{
-//    string line = Console.ReadLine();
-//    if(line == string.Empty) 
-//        break;
-//    else 
-//        Console.WriteLine("Hello "+ line);
-//}
-////While infinite loop
+while (true)
+{
+    string line = Console.ReadLine();
+    if (line == string.Empty)
+        break;
+    else
+        Console.WriteLine("Hello " + line);
+}
+//While infinite loop
 
-//int d = 0;
-//do
-//{
-//    Console.WriteLine("Love You!");
-//    c++;
-//}
-//while(d< 10);
+int d = 0;
+do
+{
+    Console.WriteLine("Love You!");
+    c++;
+}
+while (d < 10);
 
-////Simple do while loop syntax
-////Do while loop: do fast and then check statement
+//Simple do while loop syntax
+//Do while loop: do fast and then check statement
 
-//int[] ages = new int[10];
-//foreach(int i in ages)
-//{
-//    Console.WriteLine(ages);
-//}
+int[] ages = new int[10];
+foreach (int i in ages)
+{
+    Console.WriteLine(ages);
+}
 
 //Foreach loop: Born to handle collections type, for loop diyeo collections(Arry, List, Dictionary)
 //handle kora jai, kintu foreach loop most efficient
