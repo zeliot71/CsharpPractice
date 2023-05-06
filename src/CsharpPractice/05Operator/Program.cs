@@ -77,46 +77,64 @@ Console.WriteLine(x); //Output: 2
 
 #endregion
 
-#region Bitwise complement operator ~
+
+#region Bitwise operator ~
+//Bitwise NOT Operator
 uint t = 0b_0000_1111_0000_1111_0000_1111_0000_1100;
 uint s = ~t;
-Console.WriteLine(s);
 Console.WriteLine(Convert.ToString(s, toBase: 2));
 
-#endregion
-
-#region Shift Operator>>><<<<
-uint m = 0b_1100_1001_0000_0000_0000_0000_0001_0001;
-Console.WriteLine($"before: {Convert.ToString(m, toBase: 2)}");
-uint y = m << 4;
-Console.WriteLine($"after : {Convert.ToString(y, toBase: 2)}");
-
-uint n = 0b_1001;
-Console.WriteLine($"Before: {Convert.ToString(n, toBase:2),4}");
-uint n2 = n >> 2;
-Console.WriteLine($"After : {Convert.ToString(n2, toBase:2),4}");
-
-#endregion
-
-#region Logical Operator
+//output: 11110000111100001111000011110011
+//in this example bitwise not operator actually replaced all the zero into one and all the one into zero
 
 //AND Operator
 uint a1 = 0b_1111_1000;
 uint b1 = 0b_1001_1101;
+Console.WriteLine("a1:     "+ Convert.ToString(a1, toBase: 2));
+Console.WriteLine("b1:     "+ Convert.ToString(b1, toBase: 2));
 uint c1 = a1 & b1;
-Console.WriteLine(Convert.ToString(c1, toBase: 2));
+Console.WriteLine("Output: "+ Convert.ToString(c1, toBase: 2));
+
+//bitwise And operator replaced 1 
 
 //OR Operator
 uint p1 = 0b_1111_1000;
 uint q1 = 0b_1001_1101;
 uint r = p1 | q1;
-Console.WriteLine(Convert.ToString(r,toBase: 2));
+Console.WriteLine(Convert.ToString(r, toBase: 2));
 
 //X-OR Operator
 uint w = 0b_1111_1000;
 uint v = 0b_0001_1100;
 uint z = w ^ v;
 Console.WriteLine(Convert.ToString(z, toBase: 2));
+//Bitwise right shift Operator
+uint m = 0b_1100_1001_0000_0000_0000_0000_0001_0001;
+Console.WriteLine($"before: {Convert.ToString(m, toBase: 2)}");
+uint y = m << 4;
+Console.WriteLine($"after : {Convert.ToString(y, toBase: 2)}");
+
+//Bitwise left shift Operator
+uint n = 0b_1001;
+Console.WriteLine($"Before: {Convert.ToString(n, toBase: 2),4}");
+uint n2 = n >> 2;
+Console.WriteLine($"After : {Convert.ToString(n2, toBase: 2),4}");
+#endregion
+
+#region Logical Operator
+//Logical AND-(&&)
+Console.WriteLine($"lOgical and operator: {(2<3)&&(4>1)}");
+
+//this operator will return true when both conditions are true! if any conditions false this will return false;
+
+//Logical OR- (||)
+Console.WriteLine($"LOgical OR Operator: {(2>3)||(4<8)}");
+//This operator will return true if at least one of the oprerands is true; otherwise,it will return false.
+
+//Logical NOT Operator: (!)
+Console.WriteLine($"Logical NOT OPerator: {!(2 < 5)}"); 
+//this operator neagates the value of a boolean experassion. if the expression is true, it returns false. if the expreassion is false , it returns true.
+
 
 #endregion
 
