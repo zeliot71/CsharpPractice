@@ -95,30 +95,44 @@ Console.WriteLine("b1:     "+ Convert.ToString(b1, toBase: 2));
 uint c1 = a1 & b1;
 Console.WriteLine("Output: "+ Convert.ToString(c1, toBase: 2));
 
-//bitwise And operator replaced 1 
+//Output: 00011001
+//Bitwise AND operator er duita operands er bit 1(true) hole output 1(true) hobe, otherwise jekono ekta or duita 0(false) hole output false(0) hobe!
 
 //OR Operator
 uint p1 = 0b_1111_1000;
 uint q1 = 0b_1001_1101;
 uint r = p1 | q1;
-Console.WriteLine(Convert.ToString(r, toBase: 2));
+Console.WriteLine($"output of Bitwise OR: {Convert.ToString(r, toBase: 2)}");
+
+//Output: 11111101
+//Bitwise OR operator first operator or second operator jekono ektai true hole output true hobe, but both false hole false hobe
 
 //X-OR Operator
 uint w = 0b_1111_1000;
 uint v = 0b_0001_1100;
 uint z = w ^ v;
-Console.WriteLine(Convert.ToString(z, toBase: 2));
+Console.WriteLine($"Bitwize X-OR Operator: {Convert.ToString(z, toBase: 2)}");
+
+
+//Output: 11100100
+//Bitwise X OR Oparetor will output false if both operands are true or false but it output true when at least one of them is false
+
 //Bitwise right shift Operator
 uint m = 0b_1100_1001_0000_0000_0000_0000_0001_0001;
 Console.WriteLine($"before: {Convert.ToString(m, toBase: 2)}");
 uint y = m << 4;
 Console.WriteLine($"after : {Convert.ToString(y, toBase: 2)}");
 
+//Output: 1001_0000_0000_0000_0000_0001_0001_0000
+//Bitwise Right shift operator diye bits ke right e move korano jai
+
 //Bitwise left shift Operator
 uint n = 0b_1001;
 Console.WriteLine($"Before: {Convert.ToString(n, toBase: 2),4}");
 uint n2 = n >> 2;
 Console.WriteLine($"After : {Convert.ToString(n2, toBase: 2),4}");
+
+//Output: 0010
 #endregion
 
 #region Logical Operator
