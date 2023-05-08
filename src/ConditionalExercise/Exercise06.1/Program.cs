@@ -16,3 +16,5 @@ else
 {
     Console.WriteLine("Not Leap Year!");
 }
+
+//Not granted, previous one is simpler than it
