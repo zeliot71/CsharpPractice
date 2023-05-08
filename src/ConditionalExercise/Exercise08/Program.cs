@@ -2,7 +2,7 @@
 
 Console.WriteLine("Enter your age: ");
 int age = int.Parse(Console.ReadLine());
-Console.WriteLine("Are you citizen of Bangladesh?");
+Console.WriteLine("Are you citizen of Bangladesh?(true/false)");
 bool citizenShip = bool.Parse(Console.ReadLine());
 
 if(age> 18 && citizenShip)
