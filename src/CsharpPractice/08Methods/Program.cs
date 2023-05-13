@@ -61,3 +61,10 @@ else
 
 
 #endregion
+
+#region Concat Methods
+//Concatenate two or more strings together to create a new string.
+var newString = string.Concat(str1,str2,str3);
+Console.WriteLine(newString);
+
+#endregion
