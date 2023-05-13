@@ -37,7 +37,7 @@ do
 }
 while (d < 10);
 
-Do while loop: do fast and then check statement
+//Do while loop: do fast and then check statement
 #endregion
 
 #region Foreach loop
