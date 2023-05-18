@@ -66,5 +66,76 @@ else
 //Concatenate two or more strings together to create a new string.
 var newString = string.Concat(str1,str2,str3);
 Console.WriteLine(newString);
+#endregion
 
+#region Contains Methods
+//Determine whether a string contains a specified substring
+var res = str1.Contains("H");
+Console.WriteLine(res);
+
+//Determine whether a string contains a specified substring ignoring case
+var res2 = str2.Contains("E",StringComparison.OrdinalIgnoreCase);
+Console.WriteLine(res2);
+#endregion
+
+#region EndsWith Methods
+//Determine whether a string ends with a specified suffix.
+Console.WriteLine($"{string2} endsWith shi: {string2.EndsWith("Shi")}");
+
+//Determine whether a string ends with a specified suffix ignoring case.
+Console.WriteLine($"{string2} endsWith shi: {string2.EndsWith("Shi",StringComparison.OrdinalIgnoreCase)}");
+#endregion
+
+#region Format() Methods
+//Format a string by replacing placeholders with values.
+string name = "Supreme";
+int id = 100200;
+Console.WriteLine("The id of {0} is {1}", name,id);
+
+//Format a string using a specific culture.
+double prices = 456.557561;
+CultureInfo culture1 = new CultureInfo("fr-FR");
+string formattedString = string.Format(culture1, "The value is {0:N}", prices);
+Console.WriteLine(formattedString);
+#endregion
+
+#region IndexOf() Methods
+//Find the index of the first occurrence of a specified substring within a string.
+var index = string2.IndexOf("BASHI");
+Console.WriteLine(index);
+
+//Find the index of the first occurrence of a specified substring within a string starting from a specified position.
+var indexX = string2.IndexOf("VALO", 5);
+Console.WriteLine(indexX);
+#endregion
+
+#region IndexOfAny() Methods
+//Find the index of the first occurrence of any of a set of specified characters within a string.
+string text = "The quick brown fox jumps over the lazy dog.";
+char[] indexToFind = { 'a', 'e', 'i', 'o','u'};
+var inDex = text.IndexOfAny(indexToFind);
+Console.WriteLine(inDex);
+//Find the index of the first occurrence of any of a set of specified characters within a string starting from a specified position.
+var startingIndex = 10;
+var InDex = text.IndexOfAny(indexToFind,startingIndex);
+Console.WriteLine(InDex);
+#endregion
+
+#region Insert() Methods
+string txt = "Hello guys, ey hocche amar bikkhato __";
+string subtxt = "khais";
+var rslt = txt.Insert(37, subtxt);
+Console.WriteLine(rslt);
+#endregion
+
+#region IsNullOrEmpty() Methods
+string texttt = null;
+var resulttt = string.IsNullOrEmpty(texttt);
+Console.WriteLine(resulttt); //output: true, karon string null
+string texttt2 = " ";
+Console.WriteLine(string.IsNullOrEmpty(texttt2));//output: false, karon string whitespace
+string texttt3 = "";
+Console.WriteLine(string.IsNullOrEmpty(texttt3)); //output: true, karon string Empty
+
+Console.WriteLine(string.IsNullOrWhiteSpace(texttt2)); //Output: true, karon string white spaec
 #endregion
