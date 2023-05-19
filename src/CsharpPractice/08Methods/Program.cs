@@ -121,6 +121,8 @@ var InDex = text.IndexOfAny(indexToFind,startingIndex);
 Console.WriteLine(InDex);
 #endregion
 
+
+
 #region Insert() Methods
 string txt = "Hello guys, ey hocche amar bikkhato __";
 string subtxt = "khais";
@@ -138,4 +140,95 @@ string texttt3 = "";
 Console.WriteLine(string.IsNullOrEmpty(texttt3)); //output: true, karon string Empty
 
 Console.WriteLine(string.IsNullOrWhiteSpace(texttt2)); //Output: true, karon string white spaec
+#endregion
+
+#region Join() Methods
+//Join an array of strings into a single string with a specified delimiter.
+
+string[] stringArray = { "Hello", "Maisha", "ami", "Tomake", "Valobashi" };
+string delimiter = " ";
+string joinedString = string.Join(delimiter, stringArray);
+Console.WriteLine(joinedString);
+#endregion
+
+#region LastIndexOf() Methods
+//Find the index of the last occurrence of a specified substring within a string.
+
+string jnstring = "AMi tomake valo bashi na";
+string sbstring = "a";
+Console.WriteLine(jnstring.LastIndexOf(sbstring));
+//Find the index of the last occurrence of a specified substring within a string starting from a specified position.
+Console.WriteLine(jnstring.LastIndexOf(sbstring,10));
+#endregion
+
+#region PadLeft() Methods
+//Pad a string with a specified character or whitespace on the left to a specified length.
+string padLeftString = "Hello, ami ekjon artifitial intelligent";
+Console.WriteLine(padLeftString);
+int padlength = 100;
+char paddingChar = '-';
+string paddedText = padLeftString.PadLeft(padlength,paddingChar);
+Console.WriteLine(paddedText);
+string paddedText2 = padLeftString.PadLeft(padlength);
+Console.WriteLine(paddedText2);
+#endregion
+
+#region Remove() Methods
+//Remove a specified number of characters from a string starting at a specified position.
+string rmvText = "Hello, anyone from us can be gayeb!";
+int strtIndex = 7;
+int indexToRemove = 6;
+Console.WriteLine(rmvText.Remove(strtIndex, indexToRemove));
+
+#endregion
+
+#region Replace() Methods
+string title = "Replace all occurrences of a specified" +
+    "\n substring in a string " +
+    "\n with a new substring";
+string subString = "s";
+string newSbstring = "**";
+Console.WriteLine(title.Replace(subString,newSbstring));
+#endregion
+
+#region ReplaceLineEndings() Methods
+//Replace all line endings in a string with a specified string.
+string ending = "#";
+Console.WriteLine(title.ReplaceLineEndings(ending));
+
+#endregion
+
+#region Split() Methods
+string splitString = "Split a string into an array of substrings using a specified delimiter.";
+string[] splitArray = splitString.Split(' ');
+
+    Console.WriteLine(splitArray[0]);
+#endregion
+
+#region StartsWith() Methods
+string strtwith = "Determine whether a string starts with a specified prefix ignoring case";
+Console.WriteLine(strtwith.StartsWith("D", StringComparison.OrdinalIgnoreCase));
+#endregion
+
+#region SubString() Methods 
+string sbstringmthd = "Get a substring of a string starting at a specified position and with a specified length.";
+int stpos = 4;
+int l = 12;
+string nSbstring = sbstringmthd.Substring(stpos, l);
+Console.WriteLine(nSbstring);
+
+string sbstringmthd2 = "Get a substring of a string starting at a specified position and continuing to the end of the string.";
+int strtpos = 83;
+Console.WriteLine(sbstringmthd2.Substring(strtpos));
+#endregion
+
+#region Trim() Methods
+string stringTrim = "    The quick brown fox jumps over the lazy dog    ";
+string newStrigTrim = stringTrim.Trim(' ');
+Console.WriteLine("Trimmed String: " +newStrigTrim);
+Console.WriteLine("Normal String: "+ stringTrim);
+string stringForTrim = "*-*Trim a specified set of characters from the beginning and end of a string*-*";
+char[] charForTrim = { '*', '-'};
+string trimmedtext = stringForTrim.Trim(charForTrim);
+Console.WriteLine(trimmedtext);
 #endregion
