@@ -121,8 +121,6 @@ var InDex = text.IndexOfAny(indexToFind,startingIndex);
 Console.WriteLine(InDex);
 #endregion
 
-
-
 #region Insert() Methods
 string txt = "Hello guys, ey hocche amar bikkhato __";
 string subtxt = "khais";
@@ -231,4 +229,24 @@ string stringForTrim = "*-*Trim a specified set of characters from the beginning
 char[] charForTrim = { '*', '-'};
 string trimmedtext = stringForTrim.Trim(charForTrim);
 Console.WriteLine(trimmedtext);
+#endregion
+
+#region TrimEnd()  Methods
+
+#endregion
+
+#region TrimStart()  Methods
+
+#endregion
+
+#region ToUpper()  Methods
+
+#endregion
+
+#region ToLower()  Methods
+
+#endregion
+
+#region ToCharArray()  Methods
+
 #endregion
