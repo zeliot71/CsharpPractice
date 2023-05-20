@@ -19,7 +19,7 @@ else
     {
         vFlagstone = count * aFlagstone;
         count++;
-        if (vFlagstone > aTheatre)
+        if (vFlagstone >= aTheatre)
             break;
     }
     Console.WriteLine(count);
