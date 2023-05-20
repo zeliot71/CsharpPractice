@@ -2,7 +2,7 @@
 using _09ClassExamples;
 
 WaterBottle bottle1 = new WaterBottle(250, "Red");
-bottle1.addWater(250);
+bottle1.addWater(250.000);
 
 WaterBottle bottle2 = new WaterBottle(500,"Blue");
 bottle2.addWater(500);

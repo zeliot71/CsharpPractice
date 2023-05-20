@@ -9,11 +9,14 @@ namespace _09ClassExamples
 {
     class WaterBottle
     {
+        //variables
         private double _capacity;
         string _color;
         private double waterAmount;
 
         //property
+        //property is another kinda variable. the benifits of property is setting logic. we can set logic,set constant value while declaring and give access as we want
+
         public double Capacity 
         {
 
@@ -32,7 +35,9 @@ namespace _09ClassExamples
                 }
             }
         }
+        //auto property
         public string Color { get; set; } 
+        public double amounts { get; private set; }
 
         //constructor
         public WaterBottle(double capacity, string color)
@@ -46,5 +51,21 @@ namespace _09ClassExamples
         {
             waterAmount += amount;
         }
+        public void addWater(double amount)
+        {
+            waterAmount += amount;
+        }
+
+        public void AddWater(int amount, bool checkOverflow)
+        {
+            if(checkOverflow)
+            {
+                if(amount+waterAmount> Capacity) 
+                {
+                    waterAmount += amount;
+                }
+            }
+        }
     }
+
 }
