@@ -34,11 +34,17 @@ namespace _09ClassExamples
         }
         public string Color { get; set; } 
 
+        public WaterBottle(double capacity, string color)
+        {
+            Capacity = 100;
+            _color = "Red";
+        }
+
         //constructor
         public WaterBottle(double capacity, string color)
         {
-            _capacity = capacity;
-            _color = color;
+           Capacity = capacity;
+            Color = color;
         }
 
         //Method
