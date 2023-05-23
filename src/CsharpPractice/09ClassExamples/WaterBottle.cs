@@ -34,25 +34,8 @@ namespace _09ClassExamples
         }
         public string Color { get; set; }
 
-<<<<<<< HEAD
         //Method & Method Overloading
         //C# e method er khetre 2 ta kotha mone rakhben (1) obosshoi return type thakte hobe (2) method ekbar call korben r bar bar call kore use korben
-=======
-        public WaterBottle(double capacity, string color)
-        {
-            Capacity = 100;
-            _color = "Red";
-        }
-
-        //constructor
-        public WaterBottle(double capacity, string color)
-        {
-           Capacity = capacity;
-            Color = color;
-        }
-
-        //Method
->>>>>>> 0d01ee4c58c3a534d23b9c291c5001095f0c7702
         public void addWater(int amount)
         {
             waterAmount += amount;
