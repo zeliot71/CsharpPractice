@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _10InheritenceExample
 {
-    public class Book
+    //ekhane PRODUCT class er child hocche BOOK ejjono PRODUCT (parent) class hote tar properties pabe inheritence wise
+    public class Book : Product
     {
         public string Author { get; set; } 
     }
