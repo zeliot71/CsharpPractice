@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08Methods", "08Methods\08Me
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09ClassExamples", "09ClassExamples\09ClassExamples.csproj", "{12B8EA4A-312A-4237-82DA-D0EBFA3F565E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10InheritenceExample", "10InheritenceExample\10InheritenceExample.csproj", "{D493884D-955F-4DF8-BFF5-7C8DCFC23EAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10InheritenceExample", "10InheritenceExample\10InheritenceExample.csproj", "{D493884D-955F-4DF8-BFF5-7C8DCFC23EAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11TestProject", "11TestProject\11TestProject.csproj", "{2442FD7A-7141-4B35-BAD5-8905AF2C7455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11TestProject", "11TestProject\11TestProject.csproj", "{2442FD7A-7141-4B35-BAD5-8905AF2C7455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12ExampleOFstatic", "12ExampleOFstatic\12ExampleOFstatic.csproj", "{D9002AE4-8113-4874-A7D9-6B46B93CA022}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{2442FD7A-7141-4B35-BAD5-8905AF2C7455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2442FD7A-7141-4B35-BAD5-8905AF2C7455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2442FD7A-7141-4B35-BAD5-8905AF2C7455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9002AE4-8113-4874-A7D9-6B46B93CA022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9002AE4-8113-4874-A7D9-6B46B93CA022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9002AE4-8113-4874-A7D9-6B46B93CA022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9002AE4-8113-4874-A7D9-6B46B93CA022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
