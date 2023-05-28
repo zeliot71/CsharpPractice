@@ -71,7 +71,7 @@ namespace _09ClassExamples
             Capacity= 100;
             Color = "red";
         }
-        //overloading- er khetre 2 ta kotha mone rakhben: (1) overloading er maddhome multiple constructor same name lekha jai (2) obosshoi constructor gular paramiter defferent hote hobe
+        //overloading- er khetre 2 ta kotha mone rakhben: (1) overloading er maddhome multiple constructor same name lekha jai (2) obosshoi constructor gular paramiter er data type or quantity defferent hote hobe
         public WaterBottle(double capacity, string color)
         {
             Capacity= capacity;
