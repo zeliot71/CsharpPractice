@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace AbstractClassAndInheritenceExample
 {
-    internal class Train
+    internal class Train : Transport
     {
-
+        public override void StartEngine()
+        {
+            Console.WriteLine("Stating Train Engine");
+        }
     }
 }
