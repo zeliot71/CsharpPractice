@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10InheritenceExample", "10I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11TestProject", "11TestProject\11TestProject.csproj", "{2442FD7A-7141-4B35-BAD5-8905AF2C7455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12ExampleOFstatic", "12ExampleOFstatic\12ExampleOFstatic.csproj", "{D9002AE4-8113-4874-A7D9-6B46B93CA022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12ExampleOFstatic", "12ExampleOFstatic\12ExampleOFstatic.csproj", "{D9002AE4-8113-4874-A7D9-6B46B93CA022}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassAndInheritenceExample", "AbstractClassAndInheritenceExample\AbstractClassAndInheritenceExample.csproj", "{CA7CC62A-A51B-4685-B7DB-8120F90C1352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassAndInheritenceExample", "AbstractClassAndInheritenceExample\AbstractClassAndInheritenceExample.csproj", "{CA7CC62A-A51B-4685-B7DB-8120F90C1352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13InterfaceExample", "13InterfaceExample\13InterfaceExample.csproj", "{EC4DE5D1-C0CD-4567-BB30-8B009819CDE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{CA7CC62A-A51B-4685-B7DB-8120F90C1352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA7CC62A-A51B-4685-B7DB-8120F90C1352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA7CC62A-A51B-4685-B7DB-8120F90C1352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4DE5D1-C0CD-4567-BB30-8B009819CDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4DE5D1-C0CD-4567-BB30-8B009819CDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4DE5D1-C0CD-4567-BB30-8B009819CDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4DE5D1-C0CD-4567-BB30-8B009819CDE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
