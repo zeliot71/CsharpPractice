@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.TheatreSquare", "A.Theatr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.NextRound", "A.NextRound\A.NextRound.csproj", "{E1AA3097-130C-444C-AC2F-EE4E03DF6405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aBit++", "aBit++\aBit++.csproj", "{50724F7A-E012-4630-9D8F-C64648496D18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aBit++", "aBit++\aBit++.csproj", "{50724F7A-E012-4630-9D8F-C64648496D18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.BeutifulMatrix", "A.BeutifulMatrix\A.BeutifulMatrix.csproj", "{0F023A2B-47BA-4ACC-97F7-10E3619BFC48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{50724F7A-E012-4630-9D8F-C64648496D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50724F7A-E012-4630-9D8F-C64648496D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50724F7A-E012-4630-9D8F-C64648496D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F023A2B-47BA-4ACC-97F7-10E3619BFC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F023A2B-47BA-4ACC-97F7-10E3619BFC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F023A2B-47BA-4ACC-97F7-10E3619BFC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F023A2B-47BA-4ACC-97F7-10E3619BFC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
