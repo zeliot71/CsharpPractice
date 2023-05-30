@@ -13,7 +13,7 @@ namespace AbstractClassAndInheritenceExample
     abstract class Transport
     {
         public abstract void StartEngine();
-        //abstract class e normal method charao amra abstract method declare korte pari, jar asole kono body thakbena
-
+        //abstract method: jar asole kono body thakbena, and sorasori etake call o kora jaina
     }
+    //echarao abstract class e baki sob feilds,property,normal method and constructor sob applicable
 }

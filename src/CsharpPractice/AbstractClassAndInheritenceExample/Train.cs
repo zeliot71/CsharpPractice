@@ -11,6 +11,7 @@ namespace AbstractClassAndInheritenceExample
         public override void StartEngine()
         {
             Console.WriteLine("Stating Train Engine");
+            //abstract class er abstract method'k override er maddhome different class e diifferent vabe call kora jai
         }
     }
 }
