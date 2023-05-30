@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace _13InterfaceExample
 {
-    internal interface ITransport
+    internal class Train
     {
-        public void StartEngine();
-        public void StopEngine();
-        public void Move();
-
     }
 }
