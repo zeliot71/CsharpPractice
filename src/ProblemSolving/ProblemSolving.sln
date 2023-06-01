@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.PetyaString", "A.PetyaStr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.HelpfulMaths", "A.HelpfulMaths\A.HelpfulMaths.csproj", "{162516DB-7F26-46CD-8402-2A7A0BE716A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.WordCapitalization", "A.WordCapitalization\A.WordCapitalization.csproj", "{91181E62-CBAD-4618-91AE-4F16051DE983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.WordCapitalization", "A.WordCapitalization\A.WordCapitalization.csproj", "{91181E62-CBAD-4618-91AE-4F16051DE983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.BoyOrGirl", "A.BoyOrGirl\A.BoyOrGirl.csproj", "{C6F33613-51F9-4EF0-802B-37A26074D273}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{91181E62-CBAD-4618-91AE-4F16051DE983}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91181E62-CBAD-4618-91AE-4F16051DE983}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91181E62-CBAD-4618-91AE-4F16051DE983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F33613-51F9-4EF0-802B-37A26074D273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F33613-51F9-4EF0-802B-37A26074D273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F33613-51F9-4EF0-802B-37A26074D273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F33613-51F9-4EF0-802B-37A26074D273}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
