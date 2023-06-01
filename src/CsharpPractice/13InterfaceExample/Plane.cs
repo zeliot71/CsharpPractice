@@ -5,9 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _13InterfaceExample
-{ 
-    internal class Bus : ITransport
+{
+    internal class Plane : ITransport, IFlyable
     {
+        public void Fly()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Move()
         {
             throw new NotImplementedException();
@@ -21,6 +26,11 @@ namespace _13InterfaceExample
         public void StopEngine()
         {
             throw new NotImplementedException();
-        } 
+        }
+
+        public void Land()
+        {
+            Console.WriteLine("Landing plane!");
+        }
     }
 }
