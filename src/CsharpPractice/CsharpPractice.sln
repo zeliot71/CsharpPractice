@@ -27,9 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11TestProject", "11TestProj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12ExampleOFstatic", "12ExampleOFstatic\12ExampleOFstatic.csproj", "{D9002AE4-8113-4874-A7D9-6B46B93CA022}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassAndInheritenceExample", "AbstractClassAndInheritenceExample\AbstractClassAndInheritenceExample.csproj", "{CA7CC62A-A51B-4685-B7DB-8120F90C1352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13AbstractClassAndInheritenceExample", "AbstractClassAndInheritenceExample\13AbstractClassAndInheritenceExample.csproj", "{CA7CC62A-A51B-4685-B7DB-8120F90C1352}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13InterfaceExample", "13InterfaceExample\13InterfaceExample.csproj", "{EC4DE5D1-C0CD-4567-BB30-8B009819CDE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14InterfaceExample", "13InterfaceExample\14InterfaceExample.csproj", "{EC4DE5D1-C0CD-4567-BB30-8B009819CDE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

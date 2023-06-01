@@ -15,5 +15,5 @@ namespace AbstractClassAndInheritenceExample
         public abstract void StartEngine();
         //abstract method: jar asole kono body thakbena, and sorasori etake call o kora jaina
     }
-    //echarao abstract class e baki sob feilds,property,normal method and constructor sob applicable
+    //echarao abstract class e baki sob normal feilds,property, method and constructor sob applicable
 }
