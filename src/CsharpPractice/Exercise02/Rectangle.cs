@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise01
+namespace Exercise02
 {
-    public class Car : Vehicle
+    internal class Rectangle : Shape
     {
-        public override void StartEngine()
+        internal override void Area()
         {
             throw new NotImplementedException();
         }

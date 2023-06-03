@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Exercise01
 {
-    internal class Task01
+    public abstract class Vehicle
     {
+        public string Make { get; set; }
+        public string Model { get; set; }
+        public int Year { get; set; }
+
+        public abstract void StartEngine();
     }
 }
