@@ -26,6 +26,6 @@ namespace _13InterfaceExample
                                                //your property name if you want it to be writable (like normal properties). If your property will never change its value once assigned, then there's no need for a writeable version of it at all!
                                                //It's usually best practice to make all auto-properties readonly unless absolutely necessary! You'll see examples below of how this works in C# 6+ later on in this course!
 
-        }
+        
     }
 }
