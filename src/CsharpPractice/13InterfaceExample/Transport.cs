@@ -24,4 +24,4 @@ namespace _13InterfaceExample
 
 //Normal class e only implementetion kora jai, signature rakha jaina
 //Abstract class e method er signature o rakha jai &  implement o kora jai
-//Interface eo same
+//Interface eo ekhn implementetion
