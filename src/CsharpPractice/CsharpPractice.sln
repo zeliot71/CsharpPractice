@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13AbstractClassAndInheriten
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14InterfaceExample", "13InterfaceExample\14InterfaceExample.csproj", "{EC4DE5D1-C0CD-4567-BB30-8B009819CDE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise01", "Exercise01\Exercise01.csproj", "{3FB9BD2C-BEED-4575-85FF-5574C48FB6CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise01", "Exercise01\Exercise01.csproj", "{3FB9BD2C-BEED-4575-85FF-5574C48FB6CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise02", "Exercise02\Exercise02.csproj", "{D3B51021-3A9F-46AC-8839-3A882F57E097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise02", "Exercise02\Exercise02.csproj", "{D3B51021-3A9F-46AC-8839-3A882F57E097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15SealedAndNew-Keyword", "15SealedAndNew-Keyword\15SealedAndNew-Keyword.csproj", "{091E2B17-79BD-4520-B68F-B2CDB7F5CE59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{D3B51021-3A9F-46AC-8839-3A882F57E097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3B51021-3A9F-46AC-8839-3A882F57E097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3B51021-3A9F-46AC-8839-3A882F57E097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091E2B17-79BD-4520-B68F-B2CDB7F5CE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091E2B17-79BD-4520-B68F-B2CDB7F5CE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091E2B17-79BD-4520-B68F-B2CDB7F5CE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091E2B17-79BD-4520-B68F-B2CDB7F5CE59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
