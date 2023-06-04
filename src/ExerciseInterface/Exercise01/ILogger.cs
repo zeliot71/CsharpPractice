@@ -10,5 +10,9 @@ namespace Exercise01
     {
         public void LogInfo(string message);
         public void LogError(string message);
+        public void NewFeauture()
+        {
+            Console.WriteLine("Yes we've done implementetion");
+        }
     }
 }
