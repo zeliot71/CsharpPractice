@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 16PartialClassExample
+namespace PartialClassExample
 {
-    internal class CarExtra
-{
+    public partial class Car
+    {
+        public void Stop()
+        {
+            Console.WriteLine("Stop Engine");
+        }
+    }
 }
-}
+    
+

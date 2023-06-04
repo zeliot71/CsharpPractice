@@ -1,2 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using PartialClassExample;
+
+Car car = new Car("BMW");
+car.Start();
+car.Stop();
