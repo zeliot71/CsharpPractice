@@ -8,6 +8,6 @@ namespace _17StructureExample
 {
     public class Child
     {
-        public int age { get; set; }
+        public int age { get; set; } 
     }
 }
