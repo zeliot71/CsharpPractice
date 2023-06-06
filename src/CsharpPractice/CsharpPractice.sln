@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15SealedAndNew-Keyword", "1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16PartialClassExample", "PartialClassExample\16PartialClassExample.csproj", "{8155AE8D-BA36-4074-A3B6-354F74D633B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17StructureExample", "17StructureExample\17StructureExample.csproj", "{F1852A26-09E1-4657-B4E1-8D3795B38F8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17StructureExample", "17StructureExample\17StructureExample.csproj", "{F1852A26-09E1-4657-B4E1-8D3795B38F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18EnumExample", "18EnumExample\18EnumExample.csproj", "{EDC42953-E7B5-403A-AECD-140FAABAA217}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{F1852A26-09E1-4657-B4E1-8D3795B38F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1852A26-09E1-4657-B4E1-8D3795B38F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1852A26-09E1-4657-B4E1-8D3795B38F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC42953-E7B5-403A-AECD-140FAABAA217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC42953-E7B5-403A-AECD-140FAABAA217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC42953-E7B5-403A-AECD-140FAABAA217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC42953-E7B5-403A-AECD-140FAABAA217}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
