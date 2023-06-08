@@ -22,7 +22,8 @@ namespace _18EnumExample
         Male = 'M',
         Female = 'F',
         Other = 'O'
-
+            
     }
+    
 
 }
