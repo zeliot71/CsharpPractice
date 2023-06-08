@@ -13,5 +13,10 @@ StringBuilder builder = new StringBuilder();
 
 builder.Append("Hello");
 builder.Append(" World");
+
 String final = builder.ToString();
 Console.WriteLine(final);
+
+//We can also use it to solve problem in competetive programming where string's character need to modify or put into variables[i]
+//mane index dhore kono ekta value change korte parbo
+builder[5] = 'Z';

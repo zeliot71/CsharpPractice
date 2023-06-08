@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19DatetimeExample", "Dateti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20StringBuilder", "20StringBuilder\20StringBuilder.csproj", "{87019140-AB54-455A-8B84-BC6720F93F53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21ParameterModifier", "21ParameterModifier\21ParameterModifier.csproj", "{155BA5B2-44FE-4EB5-B2B2-C0F5725C9773}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{87019140-AB54-455A-8B84-BC6720F93F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87019140-AB54-455A-8B84-BC6720F93F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87019140-AB54-455A-8B84-BC6720F93F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{155BA5B2-44FE-4EB5-B2B2-C0F5725C9773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155BA5B2-44FE-4EB5-B2B2-C0F5725C9773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155BA5B2-44FE-4EB5-B2B2-C0F5725C9773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155BA5B2-44FE-4EB5-B2B2-C0F5725C9773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
