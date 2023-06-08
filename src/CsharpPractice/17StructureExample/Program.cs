@@ -10,7 +10,7 @@ Console.WriteLine("Hello, World!");
 //Example: Non primitive data types(String,object) are stored in Heap and aboiously assigned by referance
 
 
-//STRUCTURE: Class er moto kintu class er poriborte struct likhte hoy, eti nije value type and er moddhe thaka refarence type keo value type e conert kore
+//STRUCTURE: Class er moto kintu class er poriborte struct likhte hoy, eti nije value type and er moddhe thaka refarence type keo value type e convert kore
 //Interface implement kora jai kintu inheritance kora jaina
 //always ekta default constructor thake paramiterized constructor declare korar por o
 
