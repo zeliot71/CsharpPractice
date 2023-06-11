@@ -16,5 +16,18 @@ namespace _21ParameterModifier
             a = 5;
         }
 
+        internal void Something2(in int a)
+        {
+            //In: er value kokhono set kora jabena only use/read kora jabe
+            Console.WriteLine(a);
+        }
+
+        internal void Something3(out int a) 
+        {
+            
+            //Out: er bepar ulta, set kortei hobe nahole error dibe! & print/read kora jabena
+            a = 52;
+
+        }
     }
 }
