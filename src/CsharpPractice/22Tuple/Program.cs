@@ -14,7 +14,9 @@ orders[2] = new Order { OrderID = 3, Prices = 100, CustomerID = 2 };
 orders[3] = new Order { OrderID = 4, Prices = 200, CustomerID = 1 };
 orders[4] = new Order { OrderID = 5, Prices = 200, CustomerID = 1 };
 
-//Tuple
+//Tuple:jokhon kotogulo value ke kotogulo variables er moddhe hold kore rakhar proyojon hoy tokhon tuple use kora hy,
+//ekadik data type mile ekti data type gothito hoi
+//eti value type
 (string Name, double Amount)[] result = new (string, double)[customers.Length];
 
 int count = 0;
@@ -34,3 +36,8 @@ foreach(var resItem in result)
 {
     Console.WriteLine($"{resItem.Name}, {resItem.Amount}");
 }
+(string,int) GetData((double, bool, int) item1,int item2)
+{
+    return ("test",2);
+}
+//Combined uses of Tuple and method that can accept parameter
