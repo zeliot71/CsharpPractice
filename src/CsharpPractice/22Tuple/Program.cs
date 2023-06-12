@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿// Class 13 [25:10 - 1:18:10]
 using _22Tuple;
 
 Customer[] customers = new Customer[2];

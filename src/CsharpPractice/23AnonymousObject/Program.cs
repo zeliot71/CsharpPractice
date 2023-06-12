@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿// Class 13 [1: 18: 20 - 1: 26: 00 ]
 //Anonymous object; temon use hoina & eta reference type
 dynamic o = new { Name = "Zihad", Age = 22 };
 
