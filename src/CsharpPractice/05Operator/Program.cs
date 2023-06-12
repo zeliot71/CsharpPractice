@@ -181,7 +181,7 @@ string NullExample = null;
 string name = null;
 string text = name ?? "N/A";
 Console.WriteLine(text);
-//Nullculas Operator: value null hole "N/A" and null na hole oi value return korbe
+//Null Coalescing Operator: value null hole "N/A" and null na hole oi value return korbe
 
 string k = a1 < b1 ? "Small" : "Big";
 //ekhane a2 er cheye b1 boro hole Big and choto hole samall return korbe
