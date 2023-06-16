@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.HelpfulMaths", "A.Helpful
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.WordCapitalization", "A.WordCapitalization\A.WordCapitalization.csproj", "{91181E62-CBAD-4618-91AE-4F16051DE983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.BoyOrGirl", "A.BoyOrGirl\A.BoyOrGirl.csproj", "{C6F33613-51F9-4EF0-802B-37A26074D273}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.BoyOrGirl", "A.BoyOrGirl\A.BoyOrGirl.csproj", "{C6F33613-51F9-4EF0-802B-37A26074D273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.StringTask", "A.StringTask\A.StringTask.csproj", "{60D114B4-5D56-4F7B-B0EF-BD70A235746E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{C6F33613-51F9-4EF0-802B-37A26074D273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F33613-51F9-4EF0-802B-37A26074D273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6F33613-51F9-4EF0-802B-37A26074D273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D114B4-5D56-4F7B-B0EF-BD70A235746E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D114B4-5D56-4F7B-B0EF-BD70A235746E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D114B4-5D56-4F7B-B0EF-BD70A235746E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D114B4-5D56-4F7B-B0EF-BD70A235746E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
