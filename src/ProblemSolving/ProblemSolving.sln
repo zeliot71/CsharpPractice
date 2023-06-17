@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.WordCapitalization", "A.W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.BoyOrGirl", "A.BoyOrGirl\A.BoyOrGirl.csproj", "{C6F33613-51F9-4EF0-802B-37A26074D273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.StringTask", "A.StringTask\A.StringTask.csproj", "{60D114B4-5D56-4F7B-B0EF-BD70A235746E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.StringTask", "A.StringTask\A.StringTask.csproj", "{60D114B4-5D56-4F7B-B0EF-BD70A235746E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.StoneOnTable", "A.StoneOnTable\A.StoneOnTable.csproj", "{2204A9B0-832E-475B-9623-C7EF83BCD418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.StoneOnTable", "A.StoneOnTable\A.StoneOnTable.csproj", "{2204A9B0-832E-475B-9623-C7EF83BCD418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.BearAndBigBrother", "A.BearAndBigBrother\A.BearAndBigBrother.csproj", "{FEDDF4DF-6536-4FC6-98E7-A32BE0CEE227}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{2204A9B0-832E-475B-9623-C7EF83BCD418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2204A9B0-832E-475B-9623-C7EF83BCD418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2204A9B0-832E-475B-9623-C7EF83BCD418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDDF4DF-6536-4FC6-98E7-A32BE0CEE227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDDF4DF-6536-4FC6-98E7-A32BE0CEE227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDDF4DF-6536-4FC6-98E7-A32BE0CEE227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDDF4DF-6536-4FC6-98E7-A32BE0CEE227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
