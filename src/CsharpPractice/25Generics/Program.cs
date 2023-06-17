@@ -5,7 +5,8 @@
 
 using _25Generics;
 using System.Data.SqlClient;
+using System.Net;
 
-Point <string, double, SqlConnection> point= new Point<string,double,FileStream>(2);
+Point <int,bool,double> point= new Point<int, bool, double>(2);
 
 

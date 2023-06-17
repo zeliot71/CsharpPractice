@@ -7,20 +7,19 @@ using System.Threading.Tasks;
 namespace _25Generics
 {
     public class Point <T,V,M> 
-        where T: class
-        where V : struct //They are constrain 
-        where M: IDisposable
+        //where T: class
+        //where V : struct //They are constrain 
+        //where M: IDisposable
     {//ekhane just placeholder ta likha hoise & caile bar bar vinno vinno data type er jonno eta use kora jabe
         //Ey type T ta only er vitorei kaj korbe
         //generic variables
         public T m;
-        public V m1; 
-        public V m2;
+      
 
         //generic properties
         public T X { get; set; } 
-        public T Y { get; set; }
-        public T Z { get; set; }
+        public V Y { get; set; }
+        public M Z { get; set; }
         
 
         //Generic method 
