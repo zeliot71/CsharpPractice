@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.StringTask", "A.StringTas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.StoneOnTable", "A.StoneOnTable\A.StoneOnTable.csproj", "{2204A9B0-832E-475B-9623-C7EF83BCD418}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.BearAndBigBrother", "A.BearAndBigBrother\A.BearAndBigBrother.csproj", "{FEDDF4DF-6536-4FC6-98E7-A32BE0CEE227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.BearAndBigBrother", "A.BearAndBigBrother\A.BearAndBigBrother.csproj", "{FEDDF4DF-6536-4FC6-98E7-A32BE0CEE227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.SoldirBananas", "A.SoldirBananas\A.SoldirBananas.csproj", "{5677D4A7-E53E-468D-82EF-DC5CCCA86534}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{FEDDF4DF-6536-4FC6-98E7-A32BE0CEE227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEDDF4DF-6536-4FC6-98E7-A32BE0CEE227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEDDF4DF-6536-4FC6-98E7-A32BE0CEE227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5677D4A7-E53E-468D-82EF-DC5CCCA86534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5677D4A7-E53E-468D-82EF-DC5CCCA86534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5677D4A7-E53E-468D-82EF-DC5CCCA86534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5677D4A7-E53E-468D-82EF-DC5CCCA86534}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
