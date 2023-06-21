@@ -7,6 +7,8 @@ using _25Generics;
 using System.Data.SqlClient;
 using System.Net;
 
-Point <int,bool,double> point= new Point<int, bool, double>(2);
+Point <SqlCommand,double,SqlConnection> point= new Point<SqlCommand,double,SqlConnection>();
 
-
+int x = default(int);
+//it means x er default value set kora onno dike shudhu 'int x;' use korle run kora jabena!
+ 

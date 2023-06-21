@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace _25Generics
 {
-    public class Point <T,V,M> 
-        //where T: class
-        //where V : struct //They are constrain 
-        //where M: IDisposable
+    public class Point <T,V,M>
+        where T : class , new()
+        where V : struct //They are constrain 
+        where M : IDisposable
     {//ekhane just placeholder ta likha hoise & caile bar bar vinno vinno data type er jonno eta use kora jabe
         //Ey type T ta only er vitorei kaj korbe
         //generic variables
@@ -25,11 +25,13 @@ namespace _25Generics
         //Generic method 
         public virtual T Sum(T point)
         {//return type & variables er age data type likha jai
-            throw new NotImplementedException();
+            T t = default(T);
+            return t;
+
         }
 
         //generic constructor
-        public Point (T Oldpoint) //parameter 
+        public Point(T Oldpoint) //parameter 
         {
             //constructor e <> angle bracet use kora lagena
 
@@ -45,16 +47,16 @@ namespace _25Generics
 
 
     //override
-    public class advancePoint<R, W, Y> : Point<W, Y, R>
-    {
-        public advancePoint(W Oldpoint) : base(Oldpoint)
-        {
-        }
+    //public class advancePoint<R, W, Y> : Point<W, Y, R> where R : class, new()
+    //{
+    //    public advancePoint(W Oldpoint) : base(Oldpoint)
+    //    {
+    //    }
 
-        public override W Sum(W point)
-        {
-            return base.Sum(point);
-        }
-    }
+    //    public override W Sum(W point)
+    //    {
+    //        return base.Sum(point);
+    //    }
+    //}
 
 }
