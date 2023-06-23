@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23AnonymousObject", "23Anon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24NullableType", "24NullableType\24NullableType.csproj", "{F0E0B00B-ED59-45A2-BF7E-CAEE013D71D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25Generics", "25Generics\25Generics.csproj", "{6610E735-AAE7-4442-AF46-7CEFF9B3B554}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25Generics", "25Generics\25Generics.csproj", "{6610E735-AAE7-4442-AF46-7CEFF9B3B554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26OperatorOverloading", "26OperatorOverloading\26OperatorOverloading.csproj", "{814209D7-B8C6-4C7A-9B42-D45B5A25FBB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{6610E735-AAE7-4442-AF46-7CEFF9B3B554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6610E735-AAE7-4442-AF46-7CEFF9B3B554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6610E735-AAE7-4442-AF46-7CEFF9B3B554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814209D7-B8C6-4C7A-9B42-D45B5A25FBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814209D7-B8C6-4C7A-9B42-D45B5A25FBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814209D7-B8C6-4C7A-9B42-D45B5A25FBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814209D7-B8C6-4C7A-9B42-D45B5A25FBB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
