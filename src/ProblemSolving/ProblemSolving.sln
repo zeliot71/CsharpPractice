@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.Word", "A.Word\A.Word.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.Football", "A.Football\A.Football.csproj", "{A2343DF4-3A37-4C77-A73C-426A4BFF90D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.AntonAndDanik", "A.AntonAndDanik\A.AntonAndDanik.csproj", "{12666FB3-047C-41E3-B580-4E710B5DC464}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A.AntonAndDanik", "A.AntonAndDanik\A.AntonAndDanik.csproj", "{12666FB3-047C-41E3-B580-4E710B5DC464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.BeutifullYear", "A.BeutifullYear\A.BeutifullYear.csproj", "{FB72E308-90E7-4A9C-B904-BEE02C747F7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{12666FB3-047C-41E3-B580-4E710B5DC464}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12666FB3-047C-41E3-B580-4E710B5DC464}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12666FB3-047C-41E3-B580-4E710B5DC464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB72E308-90E7-4A9C-B904-BEE02C747F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB72E308-90E7-4A9C-B904-BEE02C747F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB72E308-90E7-4A9C-B904-BEE02C747F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB72E308-90E7-4A9C-B904-BEE02C747F7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
